@@ -19,13 +19,13 @@ form {
   border: none;
   border-radius: 10px;
   background: #1e293b;
-  color: #ffffff; 
+  color: #ffffff; /* coloquei branco para enxergar no fundo escuro */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease;
 }
 
 .campo-texto input:focus {
   outline: none;
-  border: 2px solid #2563eb;
+  border: 2px solid #6b00c2da;
   background: #0f172a;
 }
