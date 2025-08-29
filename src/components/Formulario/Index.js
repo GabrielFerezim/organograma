@@ -30,7 +30,7 @@ const Formulario = (props) => { // props sempre é passada, não esquecer.
 
     return (
         <section className="formulario">
-            <div className="abstract-background-element"></div> {/* Replaced circulo-lateral */}
+            <div className="abstract-background-element"></div> 
             <form onSubmit={Salvar}>
                 <h2>Preencha os dados para criar o card do <span className="highlight">colaborador</span></h2>
                 <CampoTexto obrigatorio={true} label="Nome" placeholder="Digite o seu nome " valor={nome} aoAlterado={valor => setNome(valor)} />

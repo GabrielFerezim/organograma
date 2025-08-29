@@ -1,7 +1,7 @@
 import React from 'react';
 import './Banner.css';
 
-function Banner() {
+function Banner({ irParaCadastro, onLogout, logado }) {
     return (
         <header className="banner-container">
             <nav className="navbar">
@@ -10,9 +10,12 @@ function Banner() {
                     StaffControl
                 </div>
                 <ul className="nav-links">
-                    <li><a href="/dashboard">Dashboard</a></li>
-                    <li><a href="/equipes">Equipes</a></li>
-                    <li><a href="/relatorios">Relatórios</a></li>
+                    {!logado && (
+                        <button type="button" onClick={irParaCadastro}>Cadastrar</button>
+                    )}
+                    {logado && (
+                        <button type="button" onClick={onLogout}>Sair</button>
+                    )}
                 </ul>
             </nav>
             <main className="banner-main">

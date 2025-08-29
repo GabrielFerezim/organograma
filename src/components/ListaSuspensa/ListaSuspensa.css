@@ -1,7 +1,9 @@
+.lista-suspensa {
+    background-color: #ffffff;
+}
+
 .lista-suspensa label {
-    display: block;
-    margin-bottom: 8px;
-    font-size: 20px;
+    background-color: #ffffff;
 }
 
 .lista-suspensa select {

@@ -38,6 +38,10 @@
   z-index: 1;
 }
 
+.formulario h2 {
+  background: #ffffff;
+}
+
 .abstract-background-element {
   position: absolute;
   top: 50%;

@@ -2,24 +2,30 @@ form {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-left: 750px; 
-  width: 100%; 
+  margin-left: 750px;
+  width: 100%;
   max-width: 600px;
 }
 
 .campo-texto {
   margin: 10px 0;
-  width: 100%; 
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.campo-texto label {
+  background-color: #ffffff;
 }
 
 .campo-texto input {
-  width: 100%; 
+  width: 100%;
   padding: 14px 18px;
   font-size: 16px;
   border: none;
   border-radius: 10px;
   background: #1e293b;
-  color: #ffffff; /* coloquei branco para enxergar no fundo escuro */
+  color: #ffffff;
+  /* coloquei branco para enxergar no fundo escuro */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease;
 }
